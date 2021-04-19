@@ -20,6 +20,7 @@ public class Test : MonoBehaviour
 		}
 		
 		AudioManager.instance.SetVolume("click",Sfxslider.value);
+		AudioManager.instance.SetVolume("beep1",Sfxslider.value);
         print(musicon.isOn);
     }
     

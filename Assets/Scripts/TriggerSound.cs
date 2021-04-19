@@ -21,7 +21,7 @@ public class TriggerSound : MonoBehaviour, ISelectHandler , IPointerEnterHandler
     public void OnPointerEnter(PointerEventData eventData)
     {
         //print("entered");
-        //AudioManager.instance.Play("beep1");
+        AudioManager.instance.Play("beep1");
     }
 
     public void OnSelect( BaseEventData eventData )
